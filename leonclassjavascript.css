@@ -1,0 +1,79 @@
+/*box model hack*/
+* {
+    box-sizing: border-box;
+}
+
+/*clear fix hack */
+.clearfixafter {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 300px;
+    margin: 0 auto;
+}
+
+ul * {
+    margin-left: 420px;
+}
+
+#Purple {
+    background-color: rgba(59, 18, 52, 0.329);
+}
+
+ul>li {
+    width: 94px;
+    height: 65px;
+    display: inline-block;
+}
+
+#Green {
+    background-color: green;
+
+}
+
+ul>li {
+    width: 94px;
+    height: 65px;
+}
+
+#Blue {
+    background-color: blue;
+}
+
+ul>li {
+    width: 94px;
+    height: 65px;
+}
+
+#Yellow {
+    background-color: yellow;
+}
+
+ul>li {
+    width: 94px;
+    height: 65px;
+}
+
+/******************
+/*LAYOUT
+/***********************/
+
+
+
+
+/************************
+ /*ADDITTIONAL STYLES
+ /*************************/
